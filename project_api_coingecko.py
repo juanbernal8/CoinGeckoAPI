@@ -28,7 +28,7 @@ status_code = r.status_code
 
 ##### DATA TRANSFORMATION #####
 
-## Checking if request was succesful, if it failed shows an error message
+## Checking if request was succesful, if it failed it shows an error message
 if status_code == 200:
     print('Request was succesful')
     
